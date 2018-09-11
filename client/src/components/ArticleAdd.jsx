@@ -31,7 +31,7 @@ class ArticleAdd extends Component {
   render() {
     return (
       <div>
-        <h1>Create Article Post</h1>
+        <h1>Create Article</h1>
         <form onSubmit={this.handleSubmit}>
           <div className="form-group">
             <label>Title</label>
